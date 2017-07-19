@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">UNI</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_mynetwork">My Network</string>
+    <string name="nav_networks">Networks</string>
+    <string name="nav_help">Help</string>
+    <string name="nav_about">About</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>My Network</item>
+        <item>Networks</item>
+        <item>Help</item>
+        <item>About</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+
+    <!--About Fragment -->
+    <string name="about_title">Universal Network Information Application  \n </string>
+    <string name="about_devs">Developer:</string>
+    <string name="about_name_cristian">Cristian Rosu</string>
+    <string name="about_name_language">Language Used:</string>
+    <string name="about_name_java">Java\n</string>
+    <string name="about_name_description">Description:</string>
+    <string name="about_name_descriptioninfo"> The Universal Network Information application is an app that allows its users to find
+        basic informations about the network their are using as well as other networks from UK. \n</string>
+    <string name="about_name_version">Version Number:</string>
+    <string name="about_name_versionnumber">1.0</string>
+    <string name="about_name_license">License:</string>
+    <string name="about_name_licensetype">GNU GPLv3\n</string>
+
+    <!--Contact Form-->
+    <string name="contact_form">Contact Us</string>
+    <string name="contact_form_name">Your Name</string>
+    <string name="contact_form_subject">Subject</string>
+    <string name="contact_form_message">Message</string>
+    <string name="contact_form_button">Send Email</string>
+
+    <!-- FAQ -->
+    <string name="faq_title">Frequently Asked Questions\n</string>
+    <string name="faq_q1">\nWhat is Universal Network Info?\n</string>
+    <string name="faq_a1">It is an app that allows its users to find basic informations about the network they are using as well as
+        as other networks from UK. \n</string>
+    <string name="faq_q2">Which platforms support Universal Network Info?\n</string>
+    <string name="faq_a2">Universal Network Info only supports Android. \n</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <!-- Help -->
+    <string name="open_contact_fragment">Contact</string>
+    <string name="open_faq_fragment">FAQ</string>
+    <string name="faq_header">Frequently Asked Questions</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

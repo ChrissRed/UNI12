@@ -1,0 +1,242 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="uni.uni.fragments.MyNetworkFragment">
+
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:orientation="vertical"
+       android:layout_gravity="center_horizontal">
+
+       <TextView
+           android:layout_margin="5dp"
+           android:id="@+id/txt_network"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:background="@color/colorPrimaryDark"
+           android:gravity="center"
+           android:layout_gravity="center_vertical"
+           android:padding="10dp"
+           android:textSize="20dp" />
+
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/txt_layout_website"
+        >
+       <TextView
+           android:id="@+id/txt_website"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:gravity="center|left"
+           android:layout_gravity="center|start"
+           android:background="@color/colorAccent"
+           android:layout_weight="1"
+           android:padding="5dp"
+           android:clickable="true" />
+        <ImageButton
+            android:id="@+id/txt_imageButtonWebsite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:clickable="true" />
+    </LinearLayout>
+
+
+       <TextView
+           android:layout_margin="5dp"
+           android:id="@+id/txt_payasyougo"
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:gravity="center|left"
+           android:background="@color/colorPrimaryDark"
+           android:padding="10dp"
+           android:textSize="15dp" />
+
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/txt_layout_pgbalance"
+        >
+       <TextView
+           android:id="@+id/txt_pgbalance"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:gravity="center|left"
+           android:layout_gravity="center|start"
+           android:background="@color/colorAccent"
+           android:layout_weight="1"
+           android:padding="5dp"
+           android:clickable="true" />
+        <ImageButton
+            android:id="@+id/txt_imageButtonPgbalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:clickable="true" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/txt_layout_pgremainallow"
+        >
+       <TextView
+           android:id="@+id/txt_pgremainallow"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:gravity="center|left"
+           android:layout_gravity="center|start"
+           android:background="@color/colorAccent"
+           android:layout_weight="1"
+           android:padding="5dp"
+           android:clickable="true" />
+        <ImageButton
+            android:id="@+id/txt_imageButtonPgremainallow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:clickable="true" />
+    </LinearLayout>
+
+
+       <TextView
+           android:layout_margin="5dp"
+           android:id="@+id/txt_paymonthly"
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:gravity="center|left"
+           android:background="@color/colorPrimaryDark"
+           android:padding="10dp"
+           android:textSize="15dp" />
+
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/txt_layout_pmremainallow"
+        >
+       <TextView
+           android:id="@+id/txt_pmremainallow"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:gravity="center|left"
+           android:background="@color/colorAccent"
+           android:layout_gravity="center|start"
+           android:layout_weight="1"
+           android:padding="5dp"
+           android:clickable="true" />
+        <ImageButton
+            android:id="@+id/txt_imageButtonPmremainallow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:clickable="true" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/txt_layout_pmmakepay"
+        >
+       <TextView
+           android:id="@+id/txt_pmmakepay"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:gravity="center|left"
+           android:layout_gravity="center|start"
+           android:background="@color/colorAccent"
+           android:layout_weight="1"
+           android:padding="5dp"
+           android:clickable="true" />
+        <ImageButton
+            android:id="@+id/txt_imageButtonPmmakepay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:clickable="true" />
+    </LinearLayout>
+
+
+       <TextView
+           android:layout_margin="5dp"
+           android:id="@+id/txt_custserv"
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:gravity="center|left"
+           android:background="@color/colorPrimaryDark"
+           android:padding="10dp"
+           android:textSize="15dp" />
+
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/txt_layout_custserv1"
+        >
+       <TextView
+           android:id="@+id/txt_custserv1"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:gravity="center|left"
+           android:layout_gravity="center|start"
+           android:background="@color/colorAccent"
+           android:layout_weight="1"
+           android:padding="5dp"
+           android:clickable="true" />
+        <ImageButton
+            android:id="@+id/txt_imageButtonCustserv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:clickable="true" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/txt_layout_custserv2"
+        >
+       <TextView
+           android:id="@+id/txt_custserv2"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:gravity="center|left"
+           android:layout_gravity="center|start"
+           android:background="@color/colorAccent"
+           android:layout_weight="1"
+           android:padding="5dp"
+           android:clickable="true" />
+        <ImageButton
+            android:id="@+id/txt_imageButtonCustserv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:clickable="true" />
+    </LinearLayout>
+
+
+   </LinearLayout>
+
+</ScrollView>

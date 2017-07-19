@@ -1,0 +1,242 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="uni.uni.fragments.NetworkInfoFragment">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_margin="5dp"
+            android:id="@+id/txt_network2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:padding="10dp"
+            android:textSize="15dp" />
+
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/txt_layout_website2"
+            >
+            <TextView
+                android:id="@+id/txt_website2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_gravity="center|start"
+                android:background="@color/colorAccent"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:clickable="true"/>
+            <ImageButton
+                android:id="@+id/txt_imageButtonWebsite2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:clickable="true" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_margin="5dp"
+            android:id="@+id/txt_payasyougo2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center|left"
+            android:background="@color/colorPrimaryDark"
+            android:padding="10dp"
+            android:textSize="15dp" />
+
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/txt_layout_pgbalance2"
+            >
+            <TextView
+                android:id="@+id/txt_pgbalance2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_gravity="center|start"
+                android:background="@color/colorAccent"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:clickable="true" />
+            <ImageButton
+                android:id="@+id/txt_imageButtonPgbalance2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:clickable="true" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/txt_layout_pgremainallow2"
+            >
+            <TextView
+                android:id="@+id/txt_pgremainallow2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_gravity="center|start"
+                android:background="@color/colorAccent"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:clickable="true" />
+            <ImageButton
+                android:id="@+id/txt_imageButtonPgremainallow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:clickable="true" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_margin="5dp"
+            android:id="@+id/txt_paymonthly2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center|left"
+            android:background="@color/colorPrimaryDark"
+            android:padding="10dp"
+            android:textSize="15dp" />
+
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/txt_layout_pmremainallow2"
+            >
+            <TextView
+                android:id="@+id/txt_pmremainallow2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_gravity="center|start"
+                android:background="@color/colorAccent"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:clickable="true" />
+            <ImageButton
+                android:id="@+id/txt_imageButtonPmremainallow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:clickable="true" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/txt_layout_pmmakepay2"
+            >
+            <TextView
+                android:id="@+id/txt_pmmakepay2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_gravity="center|start"
+                android:background="@color/colorAccent"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:clickable="true" />
+            <ImageButton
+                android:id="@+id/txt_imageButtonPmmakepay2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:clickable="true" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_margin="5dp"
+            android:id="@+id/txt_custserv2"
+            android:layout_width="match_parent"
+            android:gravity="center|left"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimaryDark"
+            android:padding="10dp"
+            android:textSize="15dp" />
+
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/txt_layout_custserv12"
+            >
+            <TextView
+                android:id="@+id/txt_custserv12"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_gravity="center|start"
+                android:background="@color/colorAccent"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:clickable="true" />
+            <ImageButton
+                android:id="@+id/txt_imageButtonCustserv12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:clickable="true" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/txt_layout_custserv22"
+            >
+            <TextView
+                android:id="@+id/txt_custserv22"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_gravity="center|start"
+                android:background="@color/colorAccent"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:clickable="true" />
+            <ImageButton
+                android:id="@+id/txt_imageButtonCustserv22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:clickable="true" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
